@@ -15,7 +15,6 @@ body {
     background: #CCC;
     width: 98%;
     margin: 10px auto;
-
 }
 
 
@@ -35,32 +34,40 @@ body {
 .menu {
     border: 1px solid #1CE2E2;
     background: #080707;
+    height: 109px;
 }
 
 a {
     text-decoration: none;
     color: #108888;
-    padding: 15px;
+}
+
+
+.links-pag a:link, .links-pag a:visited {
+    color: #108888;
+    text-decoration: none;
+    padding: 5px;
+} 
+
+.form-login a:link, .form-login a:visited {
+    color: #108888;
+    text-decoration: none;
+    padding: 5px;
+} 
+
+.links-pag a:hover, .form-login a:hover, .form-login button {
+    background: #1CE2E2;
+    color: black;
 }
 
 .links-pag {
 
-    font-size: 25px;
-    margin-bottom: 200px;
-    position: absolute;
-    top: 50px;
-    left: 150px;
-    
-
+    font-size: 25px; 
+    padding: 40px; 
 }
 
 .form-login {
-
-    position: absolute;
-    top: 50px;
-    left: 900px;
     font-size: 20px;
-    text-align: center;
     color: #108888;
 }
 
