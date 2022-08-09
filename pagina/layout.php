@@ -11,17 +11,17 @@
         </div>
         
         
-        <span class="form-login">
+        <div class="form-login">
             <form action="" method="post">
                 <label for="" style="margin-right: 7px;">Email:</label>
                 <input type="text" name="email">
-                <a href="">Cadastrar</a><br>
                 <label for="">Senha:</label>
                 <input type="text" name="senha">
+                <a href="" style="margin-left: 160px;">Cadastrar</a>
                 <button type="submit">Entrar</button>
             </form>
 
-        </span>
+        </div>
 
     </div>
 

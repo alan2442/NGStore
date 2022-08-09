@@ -6,7 +6,7 @@
 
 body {
     font-size: 1em;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "Garamond";
     background: #e6e6e6
 }
 
@@ -55,26 +55,34 @@ a {
     padding: 5px;
 } 
 
-.links-pag a:hover, .form-login a:hover, .form-login button {
-    background: #1CE2E2;
+.links-pag a:hover, .form-login a:hover {
+    background: #1ce2e2;
     color: black;
 }
 
-.links-pag {
+.form-login button {
+    background: #108888;
+}
 
+.links-pag {
     font-size: 25px; 
     padding: 40px; 
+    width: 47%;
 }
 
 .form-login {
     font-size: 20px;
     color: #108888;
+    width: 43%;
+    position: fixed;
+    left: 670px;
+    top: 53px;
+
 }
 
 .form-login button {
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 53px;
+    font-size: 1em;
 } 
 
 
