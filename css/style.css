@@ -1,21 +1,10 @@
-/* Limpar formatações padrão */
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     font-size: 1em;
     font-family: "Garamond";
-    background: #e6e6e6
+    background: #162674;
 }
 
-/* Layout */
-.area-principal {
-    background: #CCC;
-    width: 98%;
-    margin: 10px auto;
-}
 
 
 .rodape {
@@ -24,66 +13,6 @@ body {
 }
 
 /* Formatações do menu*/
-.menu img {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-
-}
-
-.menu {
-    border: 1px solid #1CE2E2;
-    background: #080707;
-    height: 109px;
-}
-
-a {
-    text-decoration: none;
-    color: #108888;
-}
-
-
-.links-pag a:link, .links-pag a:visited {
-    color: #108888;
-    text-decoration: none;
-    padding: 5px;
-} 
-
-.form-login a:link, .form-login a:visited {
-    color: #108888;
-    text-decoration: none;
-    padding: 5px;
-} 
-
-.links-pag a:hover, .form-login a:hover {
-    background: #1ce2e2;
-    color: black;
-}
-
-.form-login button {
-    background: #108888;
-}
-
-.links-pag {
-    font-size: 25px; 
-    padding: 40px; 
-    width: 47%;
-}
-
-.form-login {
-    font-size: 20px;
-    color: #108888;
-    width: 43%;
-    position: fixed;
-    left: 670px;
-    top: 53px;
-
-}
-
-.form-login button {
-    text-decoration: none;
-    font-size: 1em;
-} 
 
 
 /* Formatações em geral */
