@@ -2,27 +2,27 @@
 <nav class="navbar navbar-expand-lg" style="background: #1C1C1C;">
   <div class="container-fluid">
   <img src="imagens-roupas1/logotipo.jpeg" alt="" style="width: 80px; height: 80px;">
-    <a class="navbar-brand" href="#" style="margin-left: 10px; color: white;">Inicio</a>
+    <a class="navbar-brand" href="index.php" style="margin-left: 10px; color: white;">Inicio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white;">Roupas</a>
+          <a class="nav-link active" aria-current="page" href="roupas.php" style="color: white; margin-top: 15px;">Roupas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white;">Quem-Somos</a>
+          <a class="nav-link active" aria-current="page" href="quem-somos.php" style="color: white; margin-top: 4px;">Quem Somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white;">Contato</a>
+          <a class="nav-link active" aria-current="page" href="contato.php" style="color: white; margin-top: 15px;">Contato</a>
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white; margin-left: 480px;">Logar</a>
+          <a class="nav-link active" aria-current="page" href="#" style="color: white; margin-left: 480px; margin-top: 15px;">Logar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white;">Cadastrar</a>
+          <a class="nav-link active" aria-current="page" href="cadastrar.php" style="color: white; margin-top: 15px;">Cadastrar</a>
         </li>
       </ul>
 

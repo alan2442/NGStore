@@ -16,26 +16,18 @@
 
 <!-- Começo do Segundo layout de camisas -->
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="imagens/fotocamisas12.jpg" class="d-block w-100" alt="..."  height="500px;" style="margin-top: 30px;">
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="imagens/fotocamisas5.jpg" alt="" width="255px"; height="400px"; style="margin-top: 30px;">
     </div>
-    <div class="carousel-item">
-      <img src="imagens/fotocamisas2.jpg" class="d-block w-100" alt="..." height="500px;" style="margin-top: 30px;">
+    <div class="col-5">
+    <img src="imagens/fotocamisas1.jpg" alt="" width="360px"; height="400px"; style="margin-top: 30px;">
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+    <div class="col">
+    <img src="imagens/fotocamisas12.jpg" alt="" width="255px"; height="400px"; style="margin-top: 30px;">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
 <!-- Fim do segundo layout de camisas -->
@@ -56,3 +48,4 @@
   </div>
 </div>
 <!-- Fim do terceiro layout de camisas -->
+
