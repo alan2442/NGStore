@@ -47,8 +47,8 @@ use ngstore;
 create table usuario (
     id int primary key auto_increment,
     nome_usu varchar(80) not null,
-    cpf_usu char(11) not null,
-    email_usu varchar(80) not null,
+    cpf_usu char(11) not null unique,
+    email_usu varchar(80) not null unique,
     senha_usu varchar(20) not null,
     ende_usu int,
     foreign key (ende_usu) references endereco(id)

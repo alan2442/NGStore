@@ -1,9 +1,3 @@
-<?php
-
-$dbh = new PDO('mysql:host=localhost;dbname=ngstore', 'root', 'root');
-session_start();
-
-if(!isset($_SESSION['usuario'])) { ?>
 
 
 <!-- Começo do Primeiro layout de camisas -->
@@ -57,11 +51,3 @@ if(!isset($_SESSION['usuario'])) { ?>
 </div>
 <!-- Fim do terceiro layout de camisas -->
 
-
-<?php
-}else {
-?>
-
-<!--Criar a pagina index do usuario que esta conectado -->
-
-<?php } ?>
