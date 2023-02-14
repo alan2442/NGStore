@@ -15,9 +15,9 @@ include "estruturapag.php/rodape.php";
 } else { ?> <?php
 
 
-// Criar a pagina index do usuario que esta conectado 
+// pagina index do usuario que esta conectado 
 include "estruturapag.php/cabecalho.php";
-include "estruturapag.php/layout.php";
+include "estruturapag.php/layout-con.php";
 include "menupaginas.php/menuindex.php";
 include "estruturapag.php/rodape.php";
 

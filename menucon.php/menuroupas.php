@@ -1,3 +1,9 @@
+<?php
+
+$dbh= new PDO('mysql:host=localhost;dbname=tcc1', 'root', 'root');
+session_start();
+
+if(!isset($_SESSION['usuario'])) { ?>
 
 
 <!--Camisa 1 -->
@@ -148,3 +154,11 @@
 </div>
 
 
+<?php 
+}else {
+
+?>
+
+<!-- Criar pagina de venda de roupas de quando o usuario esta com a sessão aberta(conectado) -->
+
+<?php } ?>

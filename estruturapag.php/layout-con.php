@@ -19,10 +19,10 @@
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white; margin-left: 480px; margin-top: 15px;">Logar</a>
+          <a class="nav-link active" aria-current="page" href="#" style="color: white; margin-left: 480px; margin-top: 15px;">Bem Vindo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="cadastrar.php" style="color: white; margin-top: 15px;">Cadastrar</a>
+          <a class="nav-link active" aria-current="page" href="logout.php" style="color: white; margin-top: 15px;">Sair</a>
         </li>
       </ul>
 
