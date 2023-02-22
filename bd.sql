@@ -74,5 +74,15 @@ create table produto(
 
 
 
-
-
+insert into produto values('1', "Camisa Real Madrid", '300,00', "foto1.jpg", '12', "Camisa 100% Poliester");
+insert into produto values('', "Camisa Liverpool", '300,00', "foto2.jpg", '15', "Camisa 100% Poliester");
+insert into produto values('', "Camisa Chelsea", '260,00', "foto3.jpg", '8', "Camisa 100% Poliester");
+insert into produto values('', "Camisa Corinthians", '350,00', "foto4.jpg", '25', "Camisa 100% Poliester");
+insert into produto values('', "Camisa Barcelona", '280,00', "foto5.jpg", '11', "Camisa 100% Poliester");
+insert into produto values('', "Camisa Santos", '230,00', "foto6.jpg", '17', "Camisa 100% Poliester");
+insert into produto values('', "Camisa Lacoste Cinza", '400,00', "foto7.jpg", '4', "Camisa 100% dry fit");
+insert into produto values('', "Lacoste Branca", '200,00', "foto8.jpg", '22', "Camisa 100% dry fit");
+insert into produto values('', "Lacoste Azul e Amarela", '350,00', "foto9.jpeg", '30', "Camisa 100% dry fit");
+insert into produto values('', "Lacoste Azul e Branca", '280,00', "foto10.jpg", '15', "Camisa 100% dry fit");
+insert into produto values('', "Lacoste Vermelha", '250,00', "foto11.jpg", '19', "Camisa 100% dry fit");
+insert into produto values('', "Camisa Lacoste Verde", '300,00', "foto12.jpg", '13', "Camisa 100% dry fit");
