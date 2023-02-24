@@ -6,9 +6,17 @@ $stmt = $dbh->query("select * from usuario where email_usu='$usuario' and senha_
 
 $resultado = $stmt->rowCount();
 if(!$resultado){
-  echo "Usuário inválido";
-  // !!! Criar a mensagem do usuario inválido com a pagina verdadeira
-  exit();
+
+include "estruturapag.php/cabecalho.php";
+include "estruturapag.php/layout.php"; 
+?>
+<div class="alert alert-danger" role="alert">
+  Email ou Senha Incorreto.
+</div>
+<?php
+include "menupaginas.php/menulogin.php";
+include "estruturapag.php/rodape.php";
+
 } else {
   $dados = $stmt->fetch();
   session_start();

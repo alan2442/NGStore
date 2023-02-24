@@ -19,7 +19,7 @@
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login.php" style="color: white; margin-left: 480px; margin-top: 15px;">Logar</a>
+          <a class="nav-link active" aria-current="page" href="login.php" style="color: white; margin-left: 480px; margin-top: 15px;">Login</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="cadastrar.php" style="color: white; margin-top: 15px;">Cadastrar</a>

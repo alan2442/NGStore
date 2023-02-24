@@ -25,7 +25,6 @@ if($erro[1]==1062){
 
     include "estruturapag.php/cabecalho.php";
     include "estruturapag.php/layout.php";
-    echo "usuario duplicado";
     include "menupaginas.php/menucadastrar.php";
     include "estruturapag.php/rodape.php";
       
@@ -37,12 +36,14 @@ if($erro[1]==1062){
     ?><div class="alert alert-success d-flex align-items-center" role="alert">
     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
     <div>
-    Usuario Cadastrado
+    Usuario Cadastrado. Entre em sua Conta na pagina de Login
     </div>
     </div>
 <?php
     include "menupaginas.php/menucadastrar.php";
     include "estruturapag.php/rodape.php";
+
+
 
 }
 
