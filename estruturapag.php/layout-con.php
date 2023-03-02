@@ -2,27 +2,27 @@
 <nav class="navbar navbar-expand-lg" style="background: #1C1C1C;">
   <div class="container-fluid">
   <img src="imagens-roupas1/logotipo.jpeg" alt="" style="width: 80px; height: 80px;">
-    <a class="navbar-brand" href="index.php" style="margin-left: 10px; color: white; margin-top: 3px;">Inicio</a>
+    <a class="navbar-brand" href="index.php" style="margin-left: 10px; color: white;">INICIO</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="roupas.php" style="color: white; margin-top: 27px;">Roupas</a>
+          <a class="nav-link active" aria-current="page" href="roupas.php" style="color: white; padding-top: 31px;">CAMISAS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="quem-somos.php" style="color: white; margin-top: 27px;">Quem Somos</a>
+          <a class="nav-link active" aria-current="page" href="contato.php" style="color: white; padding-top: 31px;">CONTATO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="contato.php" style="color: white; margin-top: 27px;">Contato</a>
+          <a class="nav-link active" aria-current="page" href="quem-somos.php" style="color: white; padding-top: 31px;">NGSTORE</a>
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" style="color: white; margin-left: 480px; margin-top: 27px;">Bem Vindo</a>
+          <a class="nav-link active" aria-current="page" href="#" style="color: white; margin-left: 480px; padding-top: 31px;">BEM VINDO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="logout.php" style="color: white; margin-top: 27px;">Sair</a>
+          <a class="nav-link active" aria-current="page" href="logout.php" style="color: white; padding-top: 31px;">SAIR</a>
         </li>
       </ul>
 
